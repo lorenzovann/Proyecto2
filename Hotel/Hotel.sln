@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E05A420A-E44E-4558-B4E3-CA3768A7B7EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BackEnd", "BackEnd", "{C578C6C3-B9E7-4C62-9A99-58B0B369AD3C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{9779EB70-5039-4C7E-A63E-8A8BB1D82681}"
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C578C6C3-B9E7-4C62-9A99-58B0B369AD3C} = {E05A420A-E44E-4558-B4E3-CA3768A7B7EA}
+		{9779EB70-5039-4C7E-A63E-8A8BB1D82681} = {E05A420A-E44E-4558-B4E3-CA3768A7B7EA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A18F2325-0488-49AD-814D-19FBD45703DC}
+	EndGlobalSection
+EndGlobal
