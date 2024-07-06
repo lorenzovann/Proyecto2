@@ -14,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -25,10 +25,6 @@
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "BaseEntity.cs",
@@ -36,7 +32,7 @@
               "RelativeDocumentMoniker": "Hotel.Common.Data\\Base\\BaseEntity.cs",
               "ToolTip": "C:\\Proyecto2\\Hotel\\Hotel.Common.Data\\Base\\BaseEntity.cs",
               "RelativeToolTip": "Hotel.Common.Data\\Base\\BaseEntity.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-04T03:38:39.497Z",
               "EditorCaption": ""
