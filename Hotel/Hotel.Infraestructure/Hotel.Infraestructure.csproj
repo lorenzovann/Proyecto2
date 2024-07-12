@@ -6,4 +6,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Notification\Email\" />
+    <Folder Include="Notification\Model\" />
+    <Folder Include="Notification\Sms\" />
+  </ItemGroup>
+
 </Project>
