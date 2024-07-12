@@ -13,9 +13,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infraestructure", "Infraest
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{EA5DBD6E-E38C-4185-94DC-7E8C0CA66643}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Habitacion Management", "Habitacion Management", "{F8B25DB7-A390-40B7-9B09-2BF248687E82}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EstadoHabitacion Management", "EstadoHabitacion Management", "{F8B25DB7-A390-40B7-9B09-2BF248687E82}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EstadoHabitacion Management", "EstadoHabitacion Management", "{26434DF7-6807-4DDF-8FBF-FBC40C1B04B7}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Habitacion Management", "Habitacion Management", "{26434DF7-6807-4DDF-8FBF-FBC40C1B04B7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apis", "Apis", "{B91D0862-9C91-44B4-BA1A-4B7F669510C9}"
 EndProject
@@ -41,9 +41,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hotel.Infraestructure", "Ho
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{CB913456-3A8F-48DF-97D4-75EAD3F50F28}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hotel.EstadoHabitacion.Api", "Hotel.EstadoHabitacion.Api\Hotel.EstadoHabitacion.Api.csproj", "{06E7BE1D-BECA-4B8E-BAD7-78C6262E1CAB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hotel.EstadoHabitacion.Api", "Hotel.EstadoHabitacion.Api\Hotel.EstadoHabitacion.Api.csproj", "{06E7BE1D-BECA-4B8E-BAD7-78C6262E1CAB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hotel.EstadoHabitacion.Application", "Hotel.EstadoHabitacion.Application\Hotel.EstadoHabitacion.Application.csproj", "{49EDB391-813C-461C-A1AB-0AAF858C24DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hotel.EstadoHabitacion.Application", "Hotel.EstadoHabitacion.Application\Hotel.EstadoHabitacion.Application.csproj", "{49EDB391-813C-461C-A1AB-0AAF858C24DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hotel.habitacion.Apis", "Hotel.habitacion.Apis\Hotel.habitacion.Apis.csproj", "{85610F8A-5989-44CF-BC1F-C1A97F3C3B6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hotel.Habitacion.Application", "Hotel.Habitacion.Application\Hotel.Habitacion.Application.csproj", "{E630760C-879C-43BE-9815-F55A23760CD1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -67,6 +71,14 @@ Global
 		{49EDB391-813C-461C-A1AB-0AAF858C24DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49EDB391-813C-461C-A1AB-0AAF858C24DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49EDB391-813C-461C-A1AB-0AAF858C24DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85610F8A-5989-44CF-BC1F-C1A97F3C3B6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85610F8A-5989-44CF-BC1F-C1A97F3C3B6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85610F8A-5989-44CF-BC1F-C1A97F3C3B6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85610F8A-5989-44CF-BC1F-C1A97F3C3B6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E630760C-879C-43BE-9815-F55A23760CD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E630760C-879C-43BE-9815-F55A23760CD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E630760C-879C-43BE-9815-F55A23760CD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E630760C-879C-43BE-9815-F55A23760CD1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -92,6 +104,8 @@ Global
 		{CB913456-3A8F-48DF-97D4-75EAD3F50F28} = {C578C6C3-B9E7-4C62-9A99-58B0B369AD3C}
 		{06E7BE1D-BECA-4B8E-BAD7-78C6262E1CAB} = {69601CE3-D3FA-4945-BE33-BD3389145AE1}
 		{49EDB391-813C-461C-A1AB-0AAF858C24DB} = {92A8F28D-B60D-4F13-BD01-9E867F4B2D63}
+		{85610F8A-5989-44CF-BC1F-C1A97F3C3B6C} = {B91D0862-9C91-44B4-BA1A-4B7F669510C9}
+		{E630760C-879C-43BE-9815-F55A23760CD1} = {1FB8B8E8-7260-4331-88B7-2792722082BA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A18F2325-0488-49AD-814D-19FBD45703DC}
