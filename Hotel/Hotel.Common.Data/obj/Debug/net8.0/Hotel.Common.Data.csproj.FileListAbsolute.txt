@@ -10,3 +10,5 @@ C:\Proyecto2\Hotel\Hotel.Common.Data\obj\Debug\net8.0\Hotel.Common.Data.dll
 C:\Proyecto2\Hotel\Hotel.Common.Data\obj\Debug\net8.0\refint\Hotel.Common.Data.dll
 C:\Proyecto2\Hotel\Hotel.Common.Data\obj\Debug\net8.0\Hotel.Common.Data.pdb
 C:\Proyecto2\Hotel\Hotel.Common.Data\obj\Debug\net8.0\ref\Hotel.Common.Data.dll
+C:\Proyecto2\Hotel\Hotel.Common.Data\bin\Debug\net8.0\Hotel.Common.Data.xml
+C:\Proyecto2\Hotel\Hotel.Common.Data\obj\Debug\net8.0\Hotel.Common.Data.xml

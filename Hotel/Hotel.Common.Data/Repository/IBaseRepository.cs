@@ -2,15 +2,30 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
+
+ 
 
 namespace Hotel.Common.Data.Repository
 {
-    internal interface IBaseRepository <TEntity, TType> where TEntity : class
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <typeparam name="TEntity">entidad con la que se va a trabajar</typeparam>
+    /// <typeparam name="TType">id por donde se va a buscar</typeparam>
+    public interface IBaseRepository <TEntity, TType> where TEntity : class
     {
-       List<TEntity> GetAll();
-       TEntity GetAllBy(TType id);
+       
+        List<TEntity> GetAll();
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        TEntity GetEntityBy(TType id);
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="entity"></param>
         void Save(TEntity entity);
         void Update(TEntity entity);
         void Remove(TEntity entity);

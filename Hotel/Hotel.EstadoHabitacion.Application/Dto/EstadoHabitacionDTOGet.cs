@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Hotel.EstadoHabitacion.Application.Dto
 {
-   public class EstadoHabitacionDTOGet : EstadoHabitacionDTOBase
+    public class EstadoHabitacionDTOGet : EstadoHabitacionDTOBase
     {
 
     }

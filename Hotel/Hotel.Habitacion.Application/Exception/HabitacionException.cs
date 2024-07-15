@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Hotel.Habitacion.Application.Exception
 {
-    public class HabitacionException
+    public class HabitacionException 
     {
         public HabitacionException() 
         { 

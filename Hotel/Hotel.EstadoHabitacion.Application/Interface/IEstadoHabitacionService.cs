@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Hotel.EstadoHabitacion.Application.Interface
 {
-    public interface IEstadoHabitacionService
+    public interface IEstadoHabitacionService 
     {
         //List<EstadoHabitacionBaseModel> GetEstadoHabitacion();
     }

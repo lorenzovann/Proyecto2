@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Hotel.Habitacion.Application.Interface
 {
-    internal interface IHabitacion
+    public interface IHabitacionService
     {
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Hotel.EstadoHabitacion.Application.Service
 {
-    internal class EstadoHabitacionService
+    public class EstadoHabitacionService
     {
     }
 }
