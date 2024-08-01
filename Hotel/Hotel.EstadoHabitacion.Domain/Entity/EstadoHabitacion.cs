@@ -7,5 +7,12 @@ namespace Hotel.EstadoHabitacion.Domain.Entity
     {
         [Column("IdEstadoHabitacion")] 
         public override int Id { get; set; }
+
+        public int IdEstadoHabitacion { get; set; }
+        
+        public string Descripcion { get; set; }
+        
+        public bool Estado { get; set; }
+
     }
 }

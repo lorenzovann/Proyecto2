@@ -3,56 +3,28 @@
   "WorkspaceRootPath": "C:\\Proyecto2\\Hotel\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6F1460F2-F17E-49ED-BE34-BEBC45EFFA6D}|Hotel.Habitacion.Persistance\\Hotel.Habitacion.Persistance.csproj|c:\\proyecto2\\hotel\\hotel.habitacion.persistance\\repositories\\habitacionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F1460F2-F17E-49ED-BE34-BEBC45EFFA6D}|Hotel.Habitacion.Persistance\\Hotel.Habitacion.Persistance.csproj|solutionrelative:hotel.habitacion.persistance\\repositories\\habitacionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{06E7BE1D-BECA-4B8E-BAD7-78C6262E1CAB}|Hotel.EstadoHabitacion.Api\\Hotel.EstadoHabitacion.Api.csproj|c:\\proyecto2\\hotel\\hotel.estadohabitacion.api\\controllers\\estadohabitacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06E7BE1D-BECA-4B8E-BAD7-78C6262E1CAB}|Hotel.EstadoHabitacion.Api\\Hotel.EstadoHabitacion.Api.csproj|solutionrelative:hotel.estadohabitacion.api\\controllers\\estadohabitacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F1460F2-F17E-49ED-BE34-BEBC45EFFA6D}|Hotel.Habitacion.Persistance\\Hotel.Habitacion.Persistance.csproj|c:\\proyecto2\\hotel\\hotel.habitacion.persistance\\context\\hotelcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F1460F2-F17E-49ED-BE34-BEBC45EFFA6D}|Hotel.Habitacion.Persistance\\Hotel.Habitacion.Persistance.csproj|solutionrelative:hotel.habitacion.persistance\\context\\hotelcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{49EDB391-813C-461C-A1AB-0AAF858C24DB}|Hotel.EstadoHabitacion.Application\\Hotel.EstadoHabitacion.Application.csproj|c:\\proyecto2\\hotel\\hotel.estadohabitacion.application\\service\\estadohabitacionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49EDB391-813C-461C-A1AB-0AAF858C24DB}|Hotel.EstadoHabitacion.Application\\Hotel.EstadoHabitacion.Application.csproj|solutionrelative:hotel.estadohabitacion.application\\service\\estadohabitacionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93ED2E58-8E45-4FA8-8DC6-499A5C95D8E1}|Hotel.EstadoHabitacion.Persistance\\Hotel.EstadoHabitacion.Persistance.csproj|c:\\proyecto2\\hotel\\hotel.estadohabitacion.persistance\\context\\hotelcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93ED2E58-8E45-4FA8-8DC6-499A5C95D8E1}|Hotel.EstadoHabitacion.Persistance\\Hotel.EstadoHabitacion.Persistance.csproj|solutionrelative:hotel.estadohabitacion.persistance\\context\\hotelcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{93ED2E58-8E45-4FA8-8DC6-499A5C95D8E1}|Hotel.EstadoHabitacion.Persistance\\Hotel.EstadoHabitacion.Persistance.csproj|c:\\proyecto2\\hotel\\hotel.estadohabitacion.persistance\\interfaces\\iestadohabitaciondb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93ED2E58-8E45-4FA8-8DC6-499A5C95D8E1}|Hotel.EstadoHabitacion.Persistance\\Hotel.EstadoHabitacion.Persistance.csproj|solutionrelative:hotel.estadohabitacion.persistance\\interfaces\\iestadohabitaciondb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E630760C-879C-43BE-9815-F55A23760CD1}|Hotel.Habitacion.Application\\Hotel.Habitacion.Application.csproj|c:\\proyecto2\\hotel\\hotel.habitacion.application\\interface\\ihabitacionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E630760C-879C-43BE-9815-F55A23760CD1}|Hotel.Habitacion.Application\\Hotel.Habitacion.Application.csproj|solutionrelative:hotel.habitacion.application\\interface\\ihabitacionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{49EDB391-813C-461C-A1AB-0AAF858C24DB}|Hotel.EstadoHabitacion.Application\\Hotel.EstadoHabitacion.Application.csproj|c:\\proyecto2\\hotel\\hotel.estadohabitacion.application\\interface\\iestadohabitacionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49EDB391-813C-461C-A1AB-0AAF858C24DB}|Hotel.EstadoHabitacion.Application\\Hotel.EstadoHabitacion.Application.csproj|solutionrelative:hotel.estadohabitacion.application\\interface\\iestadohabitacionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A9BD94E-0C85-49B6-9000-F44F7E9C99E1}|Hotel.Habitacion.Domain\\Hotel.Habitacion.Domain.csproj|c:\\proyecto2\\hotel\\hotel.habitacion.domain\\interface\\ihabitacionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A9BD94E-0C85-49B6-9000-F44F7E9C99E1}|Hotel.Habitacion.Domain\\Hotel.Habitacion.Domain.csproj|solutionrelative:hotel.habitacion.domain\\interface\\ihabitacionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{93ED2E58-8E45-4FA8-8DC6-499A5C95D8E1}|Hotel.EstadoHabitacion.Persistance\\Hotel.EstadoHabitacion.Persistance.csproj|c:\\proyecto2\\hotel\\hotel.estadohabitacion.persistance\\crud\\estadohabitaciongetmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93ED2E58-8E45-4FA8-8DC6-499A5C95D8E1}|Hotel.EstadoHabitacion.Persistance\\Hotel.EstadoHabitacion.Persistance.csproj|solutionrelative:hotel.estadohabitacion.persistance\\crud\\estadohabitaciongetmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD284A6B-300B-483C-B3EE-BF4097BFC433}|Hotel.EstadoHabitacion.Domain\\Hotel.EstadoHabitacion.Domain.csproj|c:\\proyecto2\\hotel\\hotel.estadohabitacion.domain\\interface\\iestadohabitacionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD284A6B-300B-483C-B3EE-BF4097BFC433}|Hotel.EstadoHabitacion.Domain\\Hotel.EstadoHabitacion.Domain.csproj|solutionrelative:hotel.estadohabitacion.domain\\interface\\iestadohabitacionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93ED2E58-8E45-4FA8-8DC6-499A5C95D8E1}|Hotel.EstadoHabitacion.Persistance\\Hotel.EstadoHabitacion.Persistance.csproj|c:\\proyecto2\\hotel\\hotel.estadohabitacion.persistance\\repositories\\estadohabitacionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93ED2E58-8E45-4FA8-8DC6-499A5C95D8E1}|Hotel.EstadoHabitacion.Persistance\\Hotel.EstadoHabitacion.Persistance.csproj|solutionrelative:hotel.estadohabitacion.persistance\\repositories\\estadohabitacionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A9BD94E-0C85-49B6-9000-F44F7E9C99E1}|Hotel.Habitacion.Domain\\Hotel.Habitacion.Domain.csproj|c:\\proyecto2\\hotel\\hotel.habitacion.domain\\entity\\habitacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A9BD94E-0C85-49B6-9000-F44F7E9C99E1}|Hotel.Habitacion.Domain\\Hotel.Habitacion.Domain.csproj|solutionrelative:hotel.habitacion.domain\\entity\\habitacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E630760C-879C-43BE-9815-F55A23760CD1}|Hotel.Habitacion.Application\\Hotel.Habitacion.Application.csproj|c:\\proyecto2\\hotel\\hotel.habitacion.application\\service\\habitacionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E630760C-879C-43BE-9815-F55A23760CD1}|Hotel.Habitacion.Application\\Hotel.Habitacion.Application.csproj|solutionrelative:hotel.habitacion.application\\service\\habitacionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E630760C-879C-43BE-9815-F55A23760CD1}|Hotel.Habitacion.Application\\Hotel.Habitacion.Application.csproj|c:\\proyecto2\\hotel\\hotel.habitacion.application\\exception\\habitacionexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E630760C-879C-43BE-9815-F55A23760CD1}|Hotel.Habitacion.Application\\Hotel.Habitacion.Application.csproj|solutionrelative:hotel.habitacion.application\\exception\\habitacionexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD284A6B-300B-483C-B3EE-BF4097BFC433}|Hotel.EstadoHabitacion.Domain\\Hotel.EstadoHabitacion.Domain.csproj|c:\\proyecto2\\hotel\\hotel.estadohabitacion.domain\\entity\\estadohabitacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD284A6B-300B-483C-B3EE-BF4097BFC433}|Hotel.EstadoHabitacion.Domain\\Hotel.EstadoHabitacion.Domain.csproj|solutionrelative:hotel.estadohabitacion.domain\\entity\\estadohabitacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49EDB391-813C-461C-A1AB-0AAF858C24DB}|Hotel.EstadoHabitacion.Application\\Hotel.EstadoHabitacion.Application.csproj|c:\\proyecto2\\hotel\\hotel.estadohabitacion.application\\exception\\estadohabitacionexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49EDB391-813C-461C-A1AB-0AAF858C24DB}|Hotel.EstadoHabitacion.Application\\Hotel.EstadoHabitacion.Application.csproj|solutionrelative:hotel.estadohabitacion.application\\exception\\estadohabitacionexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{407EA10F-371D-462C-AE4E-464E287A74F9}|Hotel.Common.Data\\Hotel.Common.Data.csproj|c:\\proyecto2\\hotel\\hotel.common.data\\repository\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{407EA10F-371D-462C-AE4E-464E287A74F9}|Hotel.Common.Data\\Hotel.Common.Data.csproj|solutionrelative:hotel.common.data\\repository\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{49EDB391-813C-461C-A1AB-0AAF858C24DB}|Hotel.EstadoHabitacion.Application\\Hotel.EstadoHabitacion.Application.csproj|c:\\proyecto2\\hotel\\hotel.estadohabitacion.application\\dto\\estadohabitaciondtoget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49EDB391-813C-461C-A1AB-0AAF858C24DB}|Hotel.EstadoHabitacion.Application\\Hotel.EstadoHabitacion.Application.csproj|solutionrelative:hotel.estadohabitacion.application\\dto\\estadohabitaciondtoget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,47 +34,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HotelContext.cs",
-              "DocumentMoniker": "C:\\Proyecto2\\Hotel\\Hotel.Habitacion.Persistance\\Context\\HotelContext.cs",
-              "RelativeDocumentMoniker": "Hotel.Habitacion.Persistance\\Context\\HotelContext.cs",
-              "ToolTip": "C:\\Proyecto2\\Hotel\\Hotel.Habitacion.Persistance\\Context\\HotelContext.cs",
-              "RelativeToolTip": "Hotel.Habitacion.Persistance\\Context\\HotelContext.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAuwBAAAABTAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T16:27:54.614Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HabitacionRepository.cs",
-              "DocumentMoniker": "C:\\Proyecto2\\Hotel\\Hotel.Habitacion.Persistance\\Repositories\\HabitacionRepository.cs",
-              "RelativeDocumentMoniker": "Hotel.Habitacion.Persistance\\Repositories\\HabitacionRepository.cs",
-              "ToolTip": "C:\\Proyecto2\\Hotel\\Hotel.Habitacion.Persistance\\Repositories\\HabitacionRepository.cs",
-              "RelativeToolTip": "Hotel.Habitacion.Persistance\\Repositories\\HabitacionRepository.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAiwC4AAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T16:27:29.73Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IHabitacionService.cs",
-              "DocumentMoniker": "C:\\Proyecto2\\Hotel\\Hotel.Habitacion.Application\\Interface\\IHabitacionService.cs",
-              "RelativeDocumentMoniker": "Hotel.Habitacion.Application\\Interface\\IHabitacionService.cs",
-              "ToolTip": "C:\\Proyecto2\\Hotel\\Hotel.Habitacion.Application\\Interface\\IHabitacionService.cs",
-              "RelativeToolTip": "Hotel.Habitacion.Application\\Interface\\IHabitacionService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T16:23:18.139Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
@@ -117,132 +50,80 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IEstadoHabitacionRepository.cs",
-              "DocumentMoniker": "C:\\Proyecto2\\Hotel\\Hotel.EstadoHabitacion.Domain\\Interface\\IEstadoHabitacionRepository.cs",
-              "RelativeDocumentMoniker": "Hotel.EstadoHabitacion.Domain\\Interface\\IEstadoHabitacionRepository.cs",
-              "ToolTip": "C:\\Proyecto2\\Hotel\\Hotel.EstadoHabitacion.Domain\\Interface\\IEstadoHabitacionRepository.cs",
-              "RelativeToolTip": "Hotel.EstadoHabitacion.Domain\\Interface\\IEstadoHabitacionRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "DocumentIndex": 0,
+              "Title": "EstadoHabitacionController.cs",
+              "DocumentMoniker": "C:\\Proyecto2\\Hotel\\Hotel.EstadoHabitacion.Api\\Controllers\\EstadoHabitacionController.cs",
+              "RelativeDocumentMoniker": "Hotel.EstadoHabitacion.Api\\Controllers\\EstadoHabitacionController.cs",
+              "ToolTip": "C:\\Proyecto2\\Hotel\\Hotel.EstadoHabitacion.Api\\Controllers\\EstadoHabitacionController.cs",
+              "RelativeToolTip": "Hotel.EstadoHabitacion.Api\\Controllers\\EstadoHabitacionController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAqwEUAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-14T03:26:27.384Z",
+              "WhenOpened": "2024-08-01T15:59:50.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EstadoHabitacionService.cs",
+              "DocumentMoniker": "C:\\Proyecto2\\Hotel\\Hotel.EstadoHabitacion.Application\\Service\\EstadoHabitacionService.cs",
+              "RelativeDocumentMoniker": "Hotel.EstadoHabitacion.Application\\Service\\EstadoHabitacionService.cs",
+              "ToolTip": "C:\\Proyecto2\\Hotel\\Hotel.EstadoHabitacion.Application\\Service\\EstadoHabitacionService.cs",
+              "RelativeToolTip": "Hotel.EstadoHabitacion.Application\\Service\\EstadoHabitacionService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T15:58:08.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IEstadoHabitacionService.cs",
+              "DocumentMoniker": "C:\\Proyecto2\\Hotel\\Hotel.EstadoHabitacion.Application\\Interface\\IEstadoHabitacionService.cs",
+              "RelativeDocumentMoniker": "Hotel.EstadoHabitacion.Application\\Interface\\IEstadoHabitacionService.cs",
+              "ToolTip": "C:\\Proyecto2\\Hotel\\Hotel.EstadoHabitacion.Application\\Interface\\IEstadoHabitacionService.cs",
+              "RelativeToolTip": "Hotel.EstadoHabitacion.Application\\Interface\\IEstadoHabitacionService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T15:38:21.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EstadoHabitacionDTOGet.cs",
+              "DocumentMoniker": "C:\\Proyecto2\\Hotel\\Hotel.EstadoHabitacion.Application\\Dto\\EstadoHabitacionDTOGet.cs",
+              "RelativeDocumentMoniker": "Hotel.EstadoHabitacion.Application\\Dto\\EstadoHabitacionDTOGet.cs",
+              "ToolTip": "C:\\Proyecto2\\Hotel\\Hotel.EstadoHabitacion.Application\\Dto\\EstadoHabitacionDTOGet.cs",
+              "RelativeToolTip": "Hotel.EstadoHabitacion.Application\\Dto\\EstadoHabitacionDTOGet.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T15:31:04.61Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "IHabitacionRepository.cs",
-              "DocumentMoniker": "C:\\Proyecto2\\Hotel\\Hotel.Habitacion.Domain\\Interface\\IHabitacionRepository.cs",
-              "RelativeDocumentMoniker": "Hotel.Habitacion.Domain\\Interface\\IHabitacionRepository.cs",
-              "ToolTip": "C:\\Proyecto2\\Hotel\\Hotel.Habitacion.Domain\\Interface\\IHabitacionRepository.cs",
-              "RelativeToolTip": "Hotel.Habitacion.Domain\\Interface\\IHabitacionRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Title": "EstadoHabitacionGetModel.cs",
+              "DocumentMoniker": "C:\\Proyecto2\\Hotel\\Hotel.EstadoHabitacion.Persistance\\CRUD\\EstadoHabitacionGetModel.cs",
+              "RelativeDocumentMoniker": "Hotel.EstadoHabitacion.Persistance\\CRUD\\EstadoHabitacionGetModel.cs",
+              "ToolTip": "C:\\Proyecto2\\Hotel\\Hotel.EstadoHabitacion.Persistance\\CRUD\\EstadoHabitacionGetModel.cs",
+              "RelativeToolTip": "Hotel.EstadoHabitacion.Persistance\\CRUD\\EstadoHabitacionGetModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T16:15:12.747Z",
+              "WhenOpened": "2024-08-01T15:28:59.231Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "HotelContext.cs",
-              "DocumentMoniker": "C:\\Proyecto2\\Hotel\\Hotel.EstadoHabitacion.Persistance\\Context\\HotelContext.cs",
-              "RelativeDocumentMoniker": "Hotel.EstadoHabitacion.Persistance\\Context\\HotelContext.cs",
-              "ToolTip": "C:\\Proyecto2\\Hotel\\Hotel.EstadoHabitacion.Persistance\\Context\\HotelContext.cs",
-              "RelativeToolTip": "Hotel.EstadoHabitacion.Persistance\\Context\\HotelContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAFAAAA",
+              "Title": "IEstadoHabitacionDb.cs",
+              "DocumentMoniker": "C:\\Proyecto2\\Hotel\\Hotel.EstadoHabitacion.Persistance\\Interfaces\\IEstadoHabitacionDb.cs",
+              "RelativeDocumentMoniker": "Hotel.EstadoHabitacion.Persistance\\Interfaces\\IEstadoHabitacionDb.cs",
+              "ToolTip": "C:\\Proyecto2\\Hotel\\Hotel.EstadoHabitacion.Persistance\\Interfaces\\IEstadoHabitacionDb.cs",
+              "RelativeToolTip": "Hotel.EstadoHabitacion.Persistance\\Interfaces\\IEstadoHabitacionDb.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T15:27:12.586Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "EstadoHabitacionRepository.cs",
-              "DocumentMoniker": "C:\\Proyecto2\\Hotel\\Hotel.EstadoHabitacion.Persistance\\Repositories\\EstadoHabitacionRepository.cs",
-              "RelativeDocumentMoniker": "Hotel.EstadoHabitacion.Persistance\\Repositories\\EstadoHabitacionRepository.cs",
-              "ToolTip": "C:\\Proyecto2\\Hotel\\Hotel.EstadoHabitacion.Persistance\\Repositories\\EstadoHabitacionRepository.cs",
-              "RelativeToolTip": "Hotel.EstadoHabitacion.Persistance\\Repositories\\EstadoHabitacionRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T13:34:52.08Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "HabitacionService.cs",
-              "DocumentMoniker": "C:\\Proyecto2\\Hotel\\Hotel.Habitacion.Application\\Service\\HabitacionService.cs",
-              "RelativeDocumentMoniker": "Hotel.Habitacion.Application\\Service\\HabitacionService.cs",
-              "ToolTip": "C:\\Proyecto2\\Hotel\\Hotel.Habitacion.Application\\Service\\HabitacionService.cs",
-              "RelativeToolTip": "Hotel.Habitacion.Application\\Service\\HabitacionService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T16:23:07.39Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "HabitacionException.cs",
-              "DocumentMoniker": "C:\\Proyecto2\\Hotel\\Hotel.Habitacion.Application\\Exception\\HabitacionException.cs",
-              "RelativeDocumentMoniker": "Hotel.Habitacion.Application\\Exception\\HabitacionException.cs",
-              "ToolTip": "C:\\Proyecto2\\Hotel\\Hotel.Habitacion.Application\\Exception\\HabitacionException.cs",
-              "RelativeToolTip": "Hotel.Habitacion.Application\\Exception\\HabitacionException.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T16:22:22.594Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Habitacion.cs",
-              "DocumentMoniker": "C:\\Proyecto2\\Hotel\\Hotel.Habitacion.Domain\\Entity\\Habitacion.cs",
-              "RelativeDocumentMoniker": "Hotel.Habitacion.Domain\\Entity\\Habitacion.cs",
-              "ToolTip": "C:\\Proyecto2\\Hotel\\Hotel.Habitacion.Domain\\Entity\\Habitacion.cs",
-              "RelativeToolTip": "Hotel.Habitacion.Domain\\Entity\\Habitacion.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T16:15:07.776Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "EstadoHabitacion.cs",
-              "DocumentMoniker": "C:\\Proyecto2\\Hotel\\Hotel.EstadoHabitacion.Domain\\Entity\\EstadoHabitacion.cs",
-              "RelativeDocumentMoniker": "Hotel.EstadoHabitacion.Domain\\Entity\\EstadoHabitacion.cs",
-              "ToolTip": "C:\\Proyecto2\\Hotel\\Hotel.EstadoHabitacion.Domain\\Entity\\EstadoHabitacion.cs",
-              "RelativeToolTip": "Hotel.EstadoHabitacion.Domain\\Entity\\EstadoHabitacion.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T15:30:39.842Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "EstadoHabitacionException.cs",
-              "DocumentMoniker": "C:\\Proyecto2\\Hotel\\Hotel.EstadoHabitacion.Application\\Exception\\EstadoHabitacionException.cs",
-              "RelativeDocumentMoniker": "Hotel.EstadoHabitacion.Application\\Exception\\EstadoHabitacionException.cs",
-              "ToolTip": "C:\\Proyecto2\\Hotel\\Hotel.EstadoHabitacion.Application\\Exception\\EstadoHabitacionException.cs",
-              "RelativeToolTip": "Hotel.EstadoHabitacion.Application\\Exception\\EstadoHabitacionException.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T16:18:34.981Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IBaseRepository.cs",
-              "DocumentMoniker": "C:\\Proyecto2\\Hotel\\Hotel.Common.Data\\Repository\\IBaseRepository.cs",
-              "RelativeDocumentMoniker": "Hotel.Common.Data\\Repository\\IBaseRepository.cs",
-              "ToolTip": "C:\\Proyecto2\\Hotel\\Hotel.Common.Data\\Repository\\IBaseRepository.cs",
-              "RelativeToolTip": "Hotel.Common.Data\\Repository\\IBaseRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T14:18:51.451Z",
+              "WhenOpened": "2024-08-01T15:27:38.629Z",
               "EditorCaption": ""
             }
           ]

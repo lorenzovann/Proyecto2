@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Hotel.Infraestructure.Notification.Service
 {
-    internal class SmsService : ILoggerService
+    public class SmsService : ILoggerService
     {
     }
 }

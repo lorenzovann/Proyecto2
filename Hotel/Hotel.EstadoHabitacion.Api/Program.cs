@@ -1,23 +1,46 @@
-var builder = WebApplication.CreateBuilder(args);
+using Hotel.EstadoHabitacion.Persistance.Context;
+using Microsoft.EntityFrameworkCore;
+using Hotel.EstadoHabitacion.IOC.Dependency;
 
-// Add services to the container.
-
-builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
-
-var app = builder.Build();
-
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+namespace BoletosBus_CleanModularApp.Asiento.Api
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+            var builder = WebApplication.CreateBuilder(args);
+
+            // Add services to the container.
+
+            builder.Services.AddDbContext<EstadoHabitacionContext>(options =>
+            {
+                options.UseSqlServer(builder.Configuration.GetConnectionString("EstadoHabitacionContext"));
+            });
+
+            //Agregar dependencias
+
+            builder.Services.AddEstadoHabitacionDependency();
+
+            builder.Services.AddControllers();
+            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+            builder.Services.AddEndpointsApiExplorer();
+            builder.Services.AddSwaggerGen();
+
+            var app = builder.Build();
+
+            // Configure the HTTP request pipeline.
+            if (app.Environment.IsDevelopment())
+            {
+                app.UseSwagger();
+                app.UseSwaggerUI();
+            }
+
+            app.UseAuthorization();
+
+
+            app.MapControllers();
+
+            app.Run();
+        }
+    }
 }
-
-app.UseAuthorization();
-
-app.MapControllers();
-
-app.Run();

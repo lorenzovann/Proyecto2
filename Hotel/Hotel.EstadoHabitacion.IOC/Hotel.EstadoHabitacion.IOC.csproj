@@ -7,8 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Hotel.Common.Data\Hotel.Common.Data.csproj" />
-    <ProjectReference Include="..\Hotel.EstadoHabitacion.Domain\Hotel.EstadoHabitacion.Domain.csproj" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Hotel.EstadoHabitacion.Application\Hotel.EstadoHabitacion.Application.csproj" />
     <ProjectReference Include="..\Hotel.EstadoHabitacion.Persistance\Hotel.EstadoHabitacion.Persistance.csproj" />
   </ItemGroup>
 

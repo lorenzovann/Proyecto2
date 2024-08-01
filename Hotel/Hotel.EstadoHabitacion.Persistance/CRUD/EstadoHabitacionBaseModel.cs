@@ -4,17 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Hotel.EstadoHabitacion.Application.Dto
+namespace Hotel.EstadoHabitacion.Persistance.CRUD
 {
-    public class EstadoHabitacionDTOGet : EstadoHabitacionDTOBase
+    public abstract class EstadoHabitacionBaseModel
     {
         public int IdEstadoHabitacion { get; set; }
-
         public string Descripcion { get; set; }
-
         public bool Estado { get; set; }
-
-        public DateTime FechaCreacion { get; set; }
-
     }
 }

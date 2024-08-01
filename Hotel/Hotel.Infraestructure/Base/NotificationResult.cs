@@ -10,5 +10,6 @@ namespace Hotel.Infraestructure.Base
     {
         public bool Success {  get; set; }  
         public string? Message { get; set; }
+        public dynamic? Result { get; set; }
     }
 }

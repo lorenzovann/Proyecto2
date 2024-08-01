@@ -5,7 +5,7 @@ namespace Hotel.EstadoHabitacion.Domain.Interface
 {
     public interface IEstadoHabitacionRepository : IBaseRepository<Domain.Entity.EstadoHabitacion, int>
     {
-        List<Domain.Entity.EstadoHabitacion> GetEstadoHabitacionById(int idestadohabitacion);
+        //List<Domain.Entity.EstadoHabitacion> GetEstadoHabitacionById(int idestadohabitacion);
 
     }
 }

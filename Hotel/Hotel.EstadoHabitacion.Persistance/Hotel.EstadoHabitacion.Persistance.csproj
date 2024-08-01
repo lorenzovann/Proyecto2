@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Hotel.Common.Data\Hotel.Common.Data.csproj" />
     <ProjectReference Include="..\Hotel.EstadoHabitacion.Domain\Hotel.EstadoHabitacion.Domain.csproj" />
   </ItemGroup>
 

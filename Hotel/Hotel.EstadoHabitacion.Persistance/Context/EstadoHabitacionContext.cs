@@ -3,10 +3,10 @@ using Hotel.EstadoHabitacion.Domain.Entity;
 
 namespace Hotel.EstadoHabitacion.Persistance.Context
 {
-    public class HotelContext : DbContext
+    public class EstadoHabitacionContext : DbContext
     {
         #region "Constructor"
-        public HotelContext(DbContextOptions<HotelContext> options) : base(options)
+        public EstadoHabitacionContext(DbContextOptions<EstadoHabitacionContext> options) : base(options)
         {
 
         }

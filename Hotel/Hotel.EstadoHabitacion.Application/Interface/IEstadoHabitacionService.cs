@@ -1,13 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Hotel.EstadoHabitacion.Application.core;
+using Hotel.EstadoHabitacion.Application.Dto;
 
 namespace Hotel.EstadoHabitacion.Application.Interface
 {
     public interface IEstadoHabitacionService 
     {
-        //List<EstadoHabitacionBaseModel> GetEstadoHabitacion();
+        ServiceResult GetEstadoHabitacion();
+        ServiceResult GetEstadoHabitacionById(int id);
+        ServiceResult SaveEstadoHabitacion(EstadoHabitacionDTOSave estadoHabitacionDTOSave);
+        ServiceResult RemoveEstadoHabitacion(EstadoHabitacionDTORemove estadoHabitacionDTORemove);
+        ServiceResult UpdateEstadoHabitacion(EstadoHabitacionDTOUpdate estadoHabitacionDTOUpdate);
+        
     }
 }

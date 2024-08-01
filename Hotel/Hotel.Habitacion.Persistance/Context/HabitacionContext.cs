@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace Hotel.Habitacion.Persistance.Context
 {
-    public class HotelContext : DbContext
+    public class HabitacionContext : DbContext
     {
-        public HotelContext(DbContextOptions<HotelContext> options) : base(options) 
+        public HabitacionContext(DbContextOptions<HabitacionContext> options) : base(options) 
         { 
 
         }
