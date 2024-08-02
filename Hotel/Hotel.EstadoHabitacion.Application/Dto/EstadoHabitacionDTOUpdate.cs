@@ -8,5 +8,10 @@ namespace Hotel.EstadoHabitacion.Application.Dto
 {
     public class EstadoHabitacionDTOUpdate :  EstadoHabitacionDTOBase
     {
+        public string? Descripcion { get; set; }
+
+        public bool? Estado { get; set; }
+
+        public DateTime? FechaCreacion { get; set; }
     }
 }

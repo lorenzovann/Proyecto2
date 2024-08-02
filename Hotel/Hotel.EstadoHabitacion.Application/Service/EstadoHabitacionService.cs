@@ -1,7 +1,7 @@
 ﻿using Hotel.EstadoHabitacion.Application.core;
 using Hotel.EstadoHabitacion.Application.Dto;
 using Hotel.EstadoHabitacion.Application.Interface;
-
+using System;
 using Hotel.EstadoHabitacion.Domain.Interface;
 using Microsoft.Extensions.Logging;
 
@@ -47,10 +47,10 @@ namespace Hotel.EstadoHabitacion.Application.Service
             try
             {
                 var estadoHabitacion = _estadoHabitacionRepository.GetAll();
-                if (estadoHabitacion == null)
+                if (estadoHabitacion is null)
                 {
                     result.Success = false;
-                    result.Message = "Asiento not found";
+                    result.Message = "EstadoHabitacion no encontrado";
                 }
                 result.Result = estadoHabitacion;
                 result.Success = true;
@@ -60,7 +60,7 @@ namespace Hotel.EstadoHabitacion.Application.Service
             {
                 _logger.LogError(ex, "Error en IdEstadoHabitacion");
                 result.Success = false;
-                result.Message = "Error in IdEstadoHabitacion";
+                result.Message = "Error en IdEstadoHabitacion";
                 return result;
             }
         }
@@ -99,10 +99,9 @@ namespace Hotel.EstadoHabitacion.Application.Service
                 {
                     var estadohabitacion = new Domain.Entity.EstadoHabitacion
                     {
-                        IdEstadoHabitacion = estadoHabitacionDTOSave.IdEstadoHabitacion,
                         Descripcion = estadoHabitacionDTOSave.Descripcion,
                         Estado = estadoHabitacionDTOSave.Estado,
-
+                        FechaCreacion = estadoHabitacionDTOSave.FechaCreacion,
                     };
 
                     _estadoHabitacionRepository.Save(estadohabitacion);
@@ -131,10 +130,10 @@ namespace Hotel.EstadoHabitacion.Application.Service
                 {
                     var estadohabitacion = new Domain.Entity.EstadoHabitacion
                     {
-                        IdEstadoHabitacion = estadoHabitacionDTOUpdate.IdEstadoHabitacion,
+                       
                         Descripcion = estadoHabitacionDTOUpdate.Descripcion,
                         Estado = estadoHabitacionDTOUpdate.Estado,
-
+                        FechaCreacion = estadoHabitacionDTOUpdate.FechaCreacion,
                     };
                     _estadoHabitacionRepository.Update(estadohabitacion);
                     result.Success = true;

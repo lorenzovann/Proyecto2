@@ -18,16 +18,16 @@ namespace Hotel.EstadoHabitacion.Persistance.Repositories
             _logger = logger;
         }
 
-        public bool Exist(Expression<Func<Domain.Entity.EstadoHabitacion, bool>> filter)
-        {
-            throw new NotImplementedException();
-        }
+        //public bool Exist(Expression<Func<Domain.Entity.EstadoHabitacion, bool>> filter)
+        //{
+        //    throw new NotImplementedException();
+        //}
 
         public List<Domain.Entity.EstadoHabitacion> GetAll()
         {
             if (_EstadoHabitacionContext == null)
             {
-                _logger.LogError("EstadoHabitacion esta null");
+                _logger?.LogError("EstadoHabitacion esta null");
                 return new List<Domain.Entity.EstadoHabitacion>();
 
             }
@@ -35,14 +35,14 @@ namespace Hotel.EstadoHabitacion.Persistance.Repositories
             return _EstadoHabitacionContext.EstadoHabitacion.ToList();
         }   
 
-        public Domain.Entity.EstadoHabitacion GetEntityBy(int id)
+        public Domain.Entity.EstadoHabitacion? GetEntityBy(int id)
         {
             try
             {
-                var estadohabitacion = _EstadoHabitacionContext.EstadoHabitacion.Find(id);
+                var estadohabitacion = _EstadoHabitacionContext?.EstadoHabitacion.Find(id);
                 if (estadohabitacion is null)
                 {
-                    _logger.LogError($"EstadoHabitacion con: {id} no se encontro");
+                    _logger?.LogError($"EstadoHabitacion con: {id} no se encontro");
                     return null;
 
                 }
@@ -52,7 +52,7 @@ namespace Hotel.EstadoHabitacion.Persistance.Repositories
 
             catch
             {
-                this._logger.LogError($"error al tratar de encontrar EstadoHabitacion por el id: {id}");
+                this._logger?.LogError($"error al tratar de encontrar EstadoHabitacion por el id: {id}");
                 throw;
 
             }
@@ -66,25 +66,25 @@ namespace Hotel.EstadoHabitacion.Persistance.Repositories
             { 
                 if (entity is null) 
                 {
-                    _logger.LogError("Entity n");
+                    _logger?.LogError("Entity no se elimino");
                     return;
                 }
 
-                var estadohabitacionEliminar = this._EstadoHabitacionContext.EstadoHabitacion.Find(entity.Id);
+                var estadohabitacionEliminar = this._EstadoHabitacionContext?.EstadoHabitacion.Find(entity.Id);
 
                 if (estadohabitacionEliminar is null) 
                 {
                   
-                    _logger.LogError($"EstadoHabitacion con el id: {entity.Id} no se pudo encontrar");
+                    _logger?.LogError($"EstadoHabitacion con el id: {entity.Id} no se pudo encontrar");
                 
                 }
 
-                _EstadoHabitacionContext.EstadoHabitacion.Remove(estadohabitacionEliminar);
-                _EstadoHabitacionContext.SaveChanges(); 
+                _EstadoHabitacionContext?.EstadoHabitacion.Remove(estadohabitacionEliminar);
+                _EstadoHabitacionContext?.SaveChanges(); 
             }
             catch(Exception ex) 
             { 
-                _logger.LogError($"Error tratando de eliminar EstadoHabitacion con id: {entity.Id}");
+                _logger?.LogError($"Error tratando de eliminar EstadoHabitacion con id: {entity.Id}," + ex.ToString());
                 throw;
             }
         }
@@ -95,20 +95,20 @@ namespace Hotel.EstadoHabitacion.Persistance.Repositories
             {
                 if (entity is null)
                 {
-                    _logger.LogError($"Entity no puede ser null");
+                    _logger?.LogError($"Entity no puede ser null");
                     return;
                 }
 
-                _EstadoHabitacionContext.EstadoHabitacion.Add(entity);
-                _EstadoHabitacionContext.SaveChanges();
+                _EstadoHabitacionContext?.EstadoHabitacion.Add(entity);
+                _EstadoHabitacionContext?.SaveChanges();
 
 
             }
 
-            catch
+            catch(Exception ex)
             {
                 
-                _logger.LogError($"Error tratando de guardar EstadoHabitacion con el id: {entity.Id} ");
+                _logger?.LogError($"Error tratando de guardar EstadoHabitacion con el id: {entity.Id}," + ex.ToString());
 
             }
             
@@ -120,33 +120,33 @@ namespace Hotel.EstadoHabitacion.Persistance.Repositories
             {
                 if (entity is null)
                 {
-                    _logger.LogError($"Entity no puede ser null");
+                    _logger?.LogError($"Entity no puede ser null");
                     return;
                 }
 
 
-                var estadohabitacionActualizar = this._EstadoHabitacionContext.EstadoHabitacion.Find(entity.Id);
+                var estadohabitacionActualizar = this._EstadoHabitacionContext?.EstadoHabitacion.Find(entity.Id);
 
                 if (estadohabitacionActualizar is null)
                 {
-                    _logger.LogError($"Error al actualizar EstadoHabitacion con el id{entity.Id}"); 
+                    _logger?.LogError($"Error al actualizar EstadoHabitacion con el id{entity.Id}"); 
                     return;
 
                 }
 
                 estadohabitacionActualizar.Id = entity.Id;
-                estadohabitacionActualizar.IdEstadoHabitacion = entity.IdEstadoHabitacion;
                 estadohabitacionActualizar.Estado = entity.Estado;
                 estadohabitacionActualizar.Descripcion = entity.Descripcion;
+                estadohabitacionActualizar.FechaCreacion = entity.FechaCreacion;
 
                 _EstadoHabitacionContext.Entry(estadohabitacionActualizar).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
 
-                _EstadoHabitacionContext.SaveChanges();
+                _EstadoHabitacionContext?.SaveChanges();
             }
 
-            catch
+            catch(Exception ex)
             {
-                _logger.LogError($"Error al tratar de actualizar EstadoHabitacion con el id: {entity.Id}"); 
+                _logger?.LogError($"Error al tratar de actualizar EstadoHabitacion con el id: {entity.Id}, "+ ex.ToString()); 
                 throw;
 
             }

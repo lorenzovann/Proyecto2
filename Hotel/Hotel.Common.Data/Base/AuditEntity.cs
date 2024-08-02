@@ -6,10 +6,19 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Hotel.Common.Data.Base
-{
-    public abstract class AuditEntity<TType> : BaseEntity<TType>
+{/// <summary>
+/// 
+/// </summary>
+/// <typeparam name="TType"></typeparam>
+    public abstract class AuditEntity<TType> : BaseEntity<TType> 
     {
-        public DateTime FechaCreacion { get; set; }
-        public int Estado { get; set; } 
+        public int CreationUser {  get; set; }
+        public DateTime CreationDate { get; set; }
+        public DateTime? ModifyDate     { get; set; }
+        public int? UserMod {  get; set; }
+        public int? UserDeleted { get; set; }
+        public DateTime? DeletedDate { get; set; }
+        public bool Deleted {  get; set; }
+
     }
 }

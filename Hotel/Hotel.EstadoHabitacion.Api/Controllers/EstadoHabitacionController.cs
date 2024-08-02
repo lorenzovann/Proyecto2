@@ -10,7 +10,7 @@ namespace Hotel.EstadoHabitacion.Api.Controllers
     [ApiController] 
     public class EstadoHabitacionController : ControllerBase
     {
-        public readonly IEstadoHabitacionService estadoHabitacionService;
+        public readonly IEstadoHabitacionService? estadoHabitacionService;
         
         public EstadoHabitacionController(IEstadoHabitacionService estadoHabitacionService) 
         { 
@@ -20,12 +20,13 @@ namespace Hotel.EstadoHabitacion.Api.Controllers
         [HttpGet("Get EstadoHabitacion")]
         public IActionResult Get()
         {
-            var result = this.estadoHabitacionService.GetEstadoHabitacion();
-            
-            if (!result.Success)
+            var result = this.estadoHabitacionService?.GetEstadoHabitacion();
+
+            if (result?.Success != true)
+            {
                 return BadRequest(result);
-            else 
-                return Ok();
+            }
+            return Ok(result);
 
             
 
@@ -35,12 +36,13 @@ namespace Hotel.EstadoHabitacion.Api.Controllers
         [HttpGet("Get EstadoHabitacion by id")]
         public IActionResult Get(int id)
         {
-            var result = this.estadoHabitacionService.GetEstadoHabitacionById(id);
+            var result = this.estadoHabitacionService?.GetEstadoHabitacionById(id);
 
-            if (!result.Success)
+            if (result?.Success != true)
+            {
                 return BadRequest(result);
-            else
-                return Ok();
+            }
+            return Ok(result);
 
 
 
@@ -48,38 +50,41 @@ namespace Hotel.EstadoHabitacion.Api.Controllers
 
         // POST api/<EstadoHabitacionController>
         [HttpPost("Save EstadoHabitacion")]
-        public IActionResult Post([FromBody]EstadoHabitacion.Application.Dto.EstadoHabitacionDTOSave estadoHabitacionDTOSave)
+        public IActionResult Post([FromBody] EstadoHabitacionDTOSave estadoHabitacionDTOSave)
         {
-            var result = this.estadoHabitacionService.SaveEstadoHabitacion(estadoHabitacionDTOSave);
+            var result = this.estadoHabitacionService?.SaveEstadoHabitacion(estadoHabitacionDTOSave);
 
-            if (!result.Success)
+            if (result?.Success != true)
+            {
                 return BadRequest(result);
-            else
-                return Ok();
+            }
+            return Ok(result);
         }
 
         // PUT api/<EstadoHabitacionController>/5
         [HttpPut("Update EstadoHabitacion")]
-        public IActionResult Put([FromBody] EstadoHabitacion.Application.Dto.EstadoHabitacionDTOUpdate estadoHabitacionDTOUpdate)
+        public IActionResult Put(EstadoHabitacionDTOUpdate estadoHabitacionDTOUpdate)
         {
-            var result = this.estadoHabitacionService.UpdateEstadoHabitacion(estadoHabitacionDTOUpdate);
+            var result = this.estadoHabitacionService?.UpdateEstadoHabitacion(estadoHabitacionDTOUpdate);
 
-            if (!result.Success)
+            if (result?.Success != true)
+            {
                 return BadRequest(result);
-            else
-                return Ok();
+            }
+            return Ok();
         }
 
         // DELETE api/<EstadoHabitacionController>/5
         [HttpDelete("Remove EstadoHabitacion")]
         public IActionResult Delete(EstadoHabitacionDTORemove estadoHabitacionDTORemove)
         {
-            var result = this.estadoHabitacionService.RemoveEstadoHabitacion(estadoHabitacionDTORemove);
+            var result = this.estadoHabitacionService?.RemoveEstadoHabitacion(estadoHabitacionDTORemove);
 
-            if (!result.Success)
+            if (result?.Success != true)
+            {
                 return BadRequest(result);
-            else
-                return Ok();
+            }
+            return Ok();
         }
     }
 }

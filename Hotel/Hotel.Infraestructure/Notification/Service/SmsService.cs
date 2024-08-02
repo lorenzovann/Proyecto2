@@ -9,5 +9,14 @@ namespace Hotel.Infraestructure.Notification.Service
 {
     public class SmsService : ILoggerService
     {
+        public void LogError(string message)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void LogInformation(string message)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
